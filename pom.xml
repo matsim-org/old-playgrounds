@@ -138,7 +138,6 @@
 		<module>paschke</module>
 		<module>southAfrica</module>
 		<module>stockholm</module>
-		<module>wrashid</module>
 	</modules>
 
 	<dependencies>
