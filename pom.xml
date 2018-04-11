@@ -128,7 +128,6 @@
 
 	<modules>
 		<module>balac</module>
-		<module>boescpa</module>
 		<module>gregor</module>
 		<module>gunnar</module>
 		<module>hbecker</module>
