@@ -128,7 +128,6 @@
 
 	<modules>
 		<module>balac</module>
-		<module>gregor</module>
 		<module>hbecker</module>
 		<module>jjoubert</module>
 		<module>paschke</module>
