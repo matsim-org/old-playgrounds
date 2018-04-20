@@ -169,11 +169,14 @@ public class GfipMultimodalQSimFactory implements Provider<Mobsim> {
 				// vehicleQueue and speedCalculator are at the level of the lane:
 				QueueWithBuffer.Builder laneBuilder = new QueueWithBuffer.Builder(context) ;
 				laneBuilder.setVehicleQueue(vehicleQ);
-				laneBuilder.setLinkSpeedCalculator(theLinkSpeedCalculator);
+//				laneBuilder.setLinkSpeedCalculator(theLinkSpeedCalculator);
+				// registering theLinkSpeedCalculator with QLinkImpl. Amit Apr'18
+
 
 				// insert the lane into the link:
 				QLinkImpl.Builder linkBuilder = new QLinkImpl.Builder(context, netsimEngine) ;
 				linkBuilder.setLaneFactory(laneBuilder);
+				linkBuilder.setLinkSpeedCalculator( theLinkSpeedCalculator ) ;
 				return linkBuilder.build(link, toQueueNode) ;
 			}
 			@Override
