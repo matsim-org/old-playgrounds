@@ -26,6 +26,7 @@ import org.matsim.api.core.v01.events.handler.PersonDepartureEventHandler;
 import org.matsim.api.core.v01.population.Person;
 import org.matsim.core.api.experimental.events.EventsManager;
 import org.matsim.core.events.EventsManagerImpl;
+import org.matsim.core.events.EventsReaderTXT;
 import org.matsim.core.events.MatsimEventsReader;
 
 import java.io.BufferedWriter;
@@ -73,7 +74,7 @@ public class ArrivalCurves implements PersonArrivalEventHandler, PersonDeparture
             } catch (Exception e) {
 
                 try {
-                    new TxtEventsFileReader(em).runEventsFile(run);
+                    new EventsReaderTXT(em).runEventsFile(run);
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
