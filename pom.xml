@@ -129,12 +129,10 @@
 	<modules>
 		<module>balac</module>
 		<module>gregor</module>
-		<module>gunnar</module>
 		<module>hbecker</module>
 		<module>jjoubert</module>
 		<module>paschke</module>
 		<module>southAfrica</module>
-		<module>stockholm</module>
 	</modules>
 
 	<dependencies>
