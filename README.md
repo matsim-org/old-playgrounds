@@ -1,6 +1,8 @@
-# MATSim playgrounds
+# Old MATSim playgrounds
 
-Please note that playgrounds are slowly being outphased and re-factorings for changes in the core may not always happen. 
-Playgrounds where the owner has no commits within a year will be removed in a regular interval. 
+MATSim playgrounds were private projects of MATSIM developers. They were used for an easier re-factoring when the MATSim API was not as stable as today. Playgrounds were removed in 2018. Repositories of the main MATSim groups may be found at
+* [MATSim-vsp](https://github.com/matsim-vsp) for the group around Kai Nagel in Berlin
+* [MATSim-eth](https://github.com/matsim-eth) for the group around Kay Axhausen in Zurich
+* [MATSim-up](https://github.com/matsim-up) for the group around Johan Joubert in Pretoria
+* [MATSim SBB](https://github.com/SchweizerischeBundesbahnen/matsim-sbb-extensions) for extensions developed by the Swiss Federal Railways
 
-*As decided at the 2017 developer meeting, a re-factoring of playgrounds is no longer obligatory. The playground repository will move to read-only access at 31 May 2018*
